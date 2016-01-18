@@ -3,13 +3,19 @@ body {
     color: #985f0d;
 }
 
-
+.navbar-default{
+    background-color: #D9CAAB;
+    color: #985f0d;
+}
 .welcome{
 
     color: darkslategrey;
     background-image: url("images/wheatfield.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
 
+}
+.welcome-message{
+    padding-top: 200px;
 }
 
 .second{
@@ -19,7 +25,20 @@ body {
     background-attachment: fixed;
 
 }
+.second-message{
+    padding-top: 150px;
+}
 
+.technology{
+
+    color: black;
+    background-image: url("images/mountains.jpg");
+    background-attachment: scroll;
+
+}
+.technology-message{
+    padding-top: 75px;
+}
 .fill-screen{
     background-size: auto;
     background-position: center;
