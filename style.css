@@ -14,8 +14,8 @@ body {
 
 .second{
 
-    color: darkolivegreen;
-    background-image: url("images/mountains.jpg");
+    color: snow;
+    background-image: url("images/forestBench1500.jpg");
     background-attachment: fixed;
 
 }
@@ -23,4 +23,8 @@ body {
 .fill-screen{
     background-size: auto;
     background-position: center;
+}
+
+.copyright{
+    padding-left: 60px;
 }
