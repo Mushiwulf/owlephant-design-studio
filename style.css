@@ -7,6 +7,9 @@ body {
     background-color: #D9CAAB;
     color: #985f0d;
 }
+.navbar-default .navbar-brand{
+    color: #985f0d;
+}
 .welcome{
 
     color: darkslategrey;
@@ -43,7 +46,9 @@ body {
     background-size: auto;
     background-position: center;
 }
-
+#contact-us{
+    text-decoration: none;
+}
 .copyright{
     padding-left: 60px;
 }
