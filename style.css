@@ -1,4 +1,26 @@
 body {
-    background-color: #080808;
-    color: #d4d4d4;
+    background-color: #faebcc;
+    color: #985f0d;
+}
+
+
+.welcome{
+
+    color: darkslategrey;
+    background-image: url("images/wheatfield.jpg");
+    background-attachment: scroll;
+
+}
+
+.second{
+
+    color: darkolivegreen;
+    background-image: url("images/mountains.jpg");
+    background-attachment: fixed;
+
+}
+
+.fill-screen{
+    background-size: auto;
+    background-position: center;
 }
