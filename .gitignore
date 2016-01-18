@@ -1,4 +1,5 @@
 ##
 
 # Webstorm stuff
-*.idea
+## Directory-based project format:
+.idea/
