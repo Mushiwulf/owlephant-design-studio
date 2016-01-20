@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Owlephant Design Studio</title>
+
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="style.css" rel='stylesheet' type='text/css'>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee:400,400italic' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+
+<header>
+
+</header>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="coming-soon fill-screen text-center">
+            <h2>Coming soon</h2>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <hr>
+    <p class="copyright text-muted small">Copyright &copy; Owlephant Design Studio 2016. All Rights Reserved</p>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script>
+    $(function () {
+        $(window).on("load resize", function () {
+            $(".fill-screen").css("height", window.innerHeight);
+        });
+    });
+</script>
+
+</body>
+</html>
+

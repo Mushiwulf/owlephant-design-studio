@@ -52,3 +52,13 @@ body {
 .copyright{
     padding-left: 60px;
 }
+
+.coming-soon {
+    color: #d6e9c6;
+    font-size: 400%;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: -20px;
+    background-image: url("images/splash1920.jpg");
+}
