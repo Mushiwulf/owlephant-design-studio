@@ -54,11 +54,17 @@ body {
 }
 
 .coming-soon {
-    color: #d6e9c6;
+    color: tan;
     font-size: 400%;
     font-family: 'ABeeZee', sans-serif;
     text-align: center;
-    padding-top: 20px;
-    margin-top: -20px;
+
+    margin-top: -40px;
     background-image: url("images/splash1920.jpg");
+    background-position: center;
+    background-attachment: scroll;
+}
+.coming-soon h2{
+    padding-top: 120px;
+    font-size: 200%;
 }
