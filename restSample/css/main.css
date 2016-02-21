@@ -312,3 +312,17 @@ footer{
     footer p{
         margin:0;
     }
+
+    footer a:link{
+        color: #596F99;
+    }
+
+        footer a:visited{
+            color: #9fbcbc
+        }
+        footer a:hover{
+            color: #6d8a99;
+        }
+        footer a:active{
+            color: #99b1ed;
+        }
